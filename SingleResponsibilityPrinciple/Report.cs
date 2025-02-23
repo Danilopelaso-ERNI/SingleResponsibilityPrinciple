@@ -4,16 +4,10 @@ namespace SingleResponsibilityPrinciple
     {
         public string Content { get; set; }
 
-        public Report() {
+        public Report()
+        {
 
         }
 
-        public void GenerateReport(string content) {
-            Content = content;
-        }
-
-        public void FormatReport() {
-            Content = Content.ToLower();
-        }
     }
 }
